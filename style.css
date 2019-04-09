@@ -23,9 +23,18 @@ body {
     background-image: url(images/bg-mobile.svg);
   }
 }
+.container header img {
+  padding: 20px;
+}
+@media screen and (max-width: 375px) {
+  .container header img {
+    width: 70%;
+  }
+}
 
 .illustration img {
   padding: 20px;
+  width: 553px;
 }
 @media screen and (max-width: 375px) {
   .illustration img {
